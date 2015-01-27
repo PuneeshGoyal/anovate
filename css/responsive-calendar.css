@@ -1,0 +1,83 @@
+.responsive-calendar{-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=180, Color=#b5b5b5)";/*IE 8*/
+-moz-box-shadow: 0px 2px 7px #b5b5b5;/*FF 3.5+*/
+-webkit-box-shadow: 0px 2px 7px #b5b5b5;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 0px 2px 7px #b5b5b5;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=180, Color=#b5b5b5); /*IE 5.5-7*/
+}
+
+.responsive-calendar .controls {
+    background: none repeat scroll 0 0 #303030;
+    color: white;
+    padding: 12px 90px;
+    text-align: center;
+}
+.responsive-calendar .controls a {
+  cursor: pointer;
+}
+.responsive-calendar .controls h4 {
+  display: inline;
+}
+.responsive-calendar .day-headers,
+.responsive-calendar .days {
+  font-size: 0;
+}
+.date_bg{
+    background: none repeat scroll 0 0 rgb(1, 99, 190);
+    color: white;
+    padding: 8px 0;
+}
+.border_none{border:none !important;}
+.responsive-calendar .day {
+  display: inline-block;border: 1px solid #f8f8f8;
+  position: relative;
+  font-size: 18px;
+  width: 14.285714285714286%;
+  text-align: center;
+}
+.responsive-calendar .day a {
+  color: #747474;
+  display: block;
+  cursor: pointer;
+  padding: 20% 0 20% 0;
+}
+.responsive-calendar .day a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+.responsive-calendar .day.header {
+  border-bottom: 1px gray solid;
+}
+.responsive-calendar .day.active a {
+  background-color: #0163be;
+  color: #ffffff;
+}
+.responsive-calendar .day.active a:hover {
+  background-color: #36a0e2;
+}
+.responsive-calendar .day.active .not-current {
+  background-color: #8fcaef;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current:hover {
+  background-color: #bcdff5;
+}
+.responsive-calendar .day.not-current a {
+  color: #ddd;
+}
+.responsive-calendar .day .badge {
+  position: absolute;
+  top: 2px;display: none;
+  right: 2px;
+  z-index: 1;
+}
+
+
+@media (max-width:360px) {
+.responsive-calendar .controls { padding: 12px 45px; }
+.responsive-calendar .day {font-size: 14px;}
+}
+
+@media (max-width:320px) {
+.responsive-calendar .controls { padding: 12px 27px;}
+}
+

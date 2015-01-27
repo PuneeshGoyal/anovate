@@ -1,0 +1,237 @@
+@charset "utf-8";
+/*=========================REGISTER BOX STYLE================================*/
+@media (min-width:320px) and (max-width:480px){
+.mnt_sm-5 .col-sm-5 .input_field, textarea#content{width:100% !important;}
+}
+
+.red{background-color:#c00; color:#fff;}
+
+.mnt_booking_title h4{
+	text-align:center; 
+	font-size:18px; 
+	font-family: 'proxima_nova_rgbold'; 
+	font-weight:400;
+	}
+.mnt_booking_subtitle .control-label, .mnt_booking_subtitle2 .control-label {
+	 font-family: droid_sansregular; 
+	 font-size: 16px;
+	 font-weight: normal; 
+	 text-align: center;
+	}
+.mnt_booking_subtitle2 .control-label { 
+	font-family: 'latoregular';
+	font-size: 22px;
+	}
+.mnt_register_pop {
+	 width:200px; 
+	 margin:0 30%;
+	 }
+.mnt_register_pop a {	
+	 height: 264px !important; 
+	 line-height: 2; 
+	 text-align: center;
+	 width: 100%;
+	 }
+.mnt_or { 
+	top: 12px;
+	width: 50%; 
+	}	 
+.mnt_or p {
+	color: #494949;
+	font-family: 'latoregular';
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	}
+
+.mnt_radio1{width:45px; margin-right:30px;}
+.mnt_reg_style input, .mnt_reg_style select{border-radius:0;}
+
+/*=========================REGISTER BOX STYLE END================================*/
+
+/*=========================ICON DESCRIPTION STYLE================================*/
+.mnt_support_modal > .modal-dialog {
+    margin: 30px auto;
+    width: 70% !important;
+}
+.icon_des font {
+    background: none repeat scroll 0 0 #006be1;
+    border: 1px solid #0052ac;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 4% 0 0;
+    padding: 5px 10px;
+}
+.mnt_row_des p{font-family: MyriadPro-Regular; font-size:16px;}
+.mnt_row_des{margin-bottom:2%;}
+
+.mnt_sm_offset-1 .col-sm-offset-1 {  margin-left: 3.333% !important;}
+.mnt_sm-5 .col-sm-5{width: 37.667% !important;} 
+.mnt_sm-5 .col-sm-5 .input_field {width:90%;}
+.mnt_sm-3 .col-sm-3 {width: 20% !important;}
+
+.mnt_form_style .login_cstm {
+  background-color: transparent;
+  background-image: url("../images/confirm.png");
+  background-repeat: no-repeat;
+  height: 47px;
+  width: 190px;
+}
+.mnt_form_style input{border-radius:0;}
+.mnt_form_style label{font-weight:normal; font-family: MyriadPro-Regular; font-size:16px;}
+.mnt_form_style textarea{border-radius:0; width:96% !important;}
+.mnt_share_cause .control-label{font-size:18px;}
+.mnt_f img, .mnt_g img, .mnt_t img{margin-top: -10px !important;}
+
+/*====================== CALANDER ========================*/
+.mnt_padng_none .padng_none{ /*float:left;*/ display:inline-block; padding:0;}
+/*.hght{height:520px;}*/
+.mnt_cal_modal .modal-dialog{width:600px; padding-bottom:2%;}
+.mnt_padng_none .col-sm-offset-2{margin-left:20% !important;}
+.change_appnt{text-align:center; padding:3% 0 0 0; background:#303030; color:#fff; margin-bottom:0; }
+.change_appnt h5{font-family: 'proxima_nova_rgbold';}
+.mnt_time_lbl{font-family: MyriadPro-Regular; font-size:18px;}
+.mnt_align_rgt{text-align:right;}
+.mnt_align_lft{text-align:left;}
+.mnt_pb3{padding-bottom:3%;}
+/*.mnt_close{background-image:url(../images/cloase_icon.png);}*/
+.mnt_cal_header .modal-header {
+    border-bottom: none !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+}
+
+
+/*--Modal-9(CAUSE4 - DONATION PAYMENT WINDOW) */
+.mnt_dpw_checkbox .checkbox-inline{margin-left:0px !important;}
+.mnt_table_popup{font-family: MyriadPro-Regular; font-size:16px;}	
+.mnt_table_popup .col-sm-6, mnt_table_popup .col-xs-6{padding-left:0px;}
+/*.mnt_scroll{height:200px;}*/
+
+/* Modal-11(Project sparkle - Petition progress) */
+/*.mnt_sparkle .modal-dialog{width:70%;}*/
+.mnt_blue{color:#016acb; height:12px;}
+.mnt_mb4{margin-bottom:10px;}
+
+/* Modal 15 Thanks Giving2 */
+.mnt_form_style .mnt_modify{	
+	background: transparent;
+    background-image: url("../images/modify_btn.png");
+    background-repeat: no-repeat;
+    border:none;
+    color:#fff;
+    font-weight:300;
+    height: 28px;
+    width: 120px;
+    font-size: 15px;
+} 
+.mnt_mt4{margin-top:4%;}
+.mnt_mb2{margin-bottom:2%;}
+.mnt_center{text-align:center !important;}
+.mnt_thnks_input{width:100% !important;}
+.mnt_thanks2_tfoot{border-bottom: 1px solid #ccc;}
+.mnt_thnks2_title-line{border-bottom:1px solid #eee;}
+.mnt_thnks2_title{border-bottom:3px solid #666; width:18%;}
+.mnt_thnks2_title2{border-bottom:3px solid #666; width:21%;}
+.mnt_thnks2_title label, .mnt_thnks2_title2 label{font-weight:700; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#5a5a5a;}
+
+.custom_m_head .close{background-image:url(../images/cloase_icon.png); width:41px; height:41px; opacity:1; 
+margin:-33px;
+    margin-top: -10px\9; /* For IE9 (Note: There is "NO" space before \9) */
+    margin-right: -10px\9; /* For IE9 (Note: There is "NO" space before \9) */
+    margin-top: -10px \9; /* For IE8 (Note: There is "ONE" space before \9) */
+    margin-right: -10px \9; /* For IE8 (Note: There is "ONE" space before \9) */
+}
+.table{height:250px;}
+
+
+
+@media (min-width:320px) and (max-width:360px){.mnt_row_des p{font-size: 14px;}
+.mnt_row_des .col-sm-2, .mnt_row_des .col-xs-3, .mnt_row_des .col-xs-9, .mnt_row_des .col-sm-9 {padding-left:0px; padding-right:0px;}
+/* Register*/
+.mnt_register_pop{margin:0 6%;}
+.mnt_or{width:90%;}
+.mnt_booking_subtitle2 .control-label{font-size:17px;}
+/* THANKS FOR SUPPORT */
+.mnt_sm_offset-1 .col-sm-offset-1 {margin-left:0 !important;} /* Offset to 0*/
+.mnt_sm-5 .col-sm-5{width: 100% !important;}
+.mnt_support_modal > .modal-dialog{width:90% !important;}
+.mnt_sm-3 .col-sm-3{width: 80% !important;}
+.mnt-modal7 label{width:29% !important;}
+.mnt_form_style .login_cstm{margin-left:10%;}
+.mnt_register_pop{margin:0 auto;}
+.mnt_or{margin:0 auto !important; width:100%;}
+
+/*Calander Checkbox*/
+.mnt_time_lbl .checkbox-inline{margin-left:0px;}
+
+/* Modal-9(CAUSE4 - DONATION PAYMENT WINDOW)*/
+.mnt_dpw_checkbox .checkbox-inline{margin-left:0px !important;}
+.mnt_dpw_checkbox .checkbox-inline { margin-left:0px !important;}
+
+/* Thanks2 Modal */
+.mnt_thnks2_title{width:100%;}
+.mnt_thnks2_title2{width:100%;}
+.mnt_ml2{margin-left:2%;}
+.mnt_mr2{margin-right:2% !important;}
+.mnt_thanks2 .modal-dialog{width:85%; margin-left:auto; margin-right:auto;}
+
+}
+@media (min-width:361px) and (max-width:480px){
+	/* THANKS FOR SUPPORT */
+	.mnt_or{margin-left:25%;}
+	.mnt_register_pop{margin:0 auto;}
+	.mnt_or{width:50%;}
+	
+	.mnt_sm-3 .col-sm-3{width: 100% !important;}
+	.mnt_sm-5 .col-sm-5{width: 100% !important;}
+	.mnt_sm_offset-1 .col-sm-offset-1{margin-left:0;}
+	.mnt_spt .col-sm-3{width:50% !important;}
+	.mnt_sm_offset-1 .col-sm-offset-1 {margin-left:0 !important;} /* Offset to 0*/
+	
+	
+.mnt_dpw_checkbox.checkbox-inline { margin-left:0px !important;}
+
+/* Thanks2 Modal */
+.mnt_thnks2_title{width:56%;}
+.mnt_thanks2 .modal-dialog{95%;}
+	}
+@media (min-width:481px) and (max-width:640px){		
+	.mnt_or{width:100%;}
+	.mnt_sm-3 .col-sm-3{width: 80% !important;}
+	.mnt_sm-5 .col-sm-5{width: 80% !important;}
+	.mnt_sm_offset-1 .col-sm-offset-1 {margin-left:0 !important;} /* Offset to 0*/
+	.mnt_spt .col-sm-3{width:50% !important;}
+}
+@media (min-width:320px) and (max-width:768px){
+	.mnt_padng_none .col-sm-offset-2{margin-left:0 !important;}	
+	.mnt_cal_modal .modal-dialog{width:auto; padding-bottom:1%;}	
+	/*.mnt_cal_modal .modal-dialog{width:600px; padding-bottom:1%;}*/
+	/*.hght {height: 425px;}*/
+}
+@media (max-width:768px){.mnt_change_appoint .modal-dialog{width:80%;} .mnt_change_appoint_cal .col-sm-offset-2{margin-left:25% !important;}}
+@media (min-width:320px) and (max-width:640px){
+	.mnt_change_appoint .modal-dialog{width:90%; margin-left:auto; margin-right:auto;} 
+	.mnt_change_appoint_cal .col-sm-offset-2 {
+    	margin-left: 0 !important;
+		}
+}
+@media (min-width:640px) and (max-width:768px){
+	/* Modal-11(Project sparkle - Petition progress) */
+.mnt_sparkle .modal-dialog{width:98%;}	
+.mnt_thanks2_xs12 .col-xs-12{width:30%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+		

@@ -1,0 +1,263 @@
+@media (max-width:480px) {
+	.cell {font-size: 12px;}
+	.cell_top{ font-size:7px !important;}
+}
+
+@media (max-width:991px) {
+.cell_top{ font-size:13px;}
+.setting.add { bottom: 36px !important; float: left; font-size: 13px; margin-bottom: 0; margin-left: 4px; margin-top: 16px !important; }
+.setting { float: left; font-size: 13px; margin-bottom: 1px !important; margin-left: 4px; margin-top: 13px !important; }
+.setting { text-align: center !important; width: 100% !important; }
+
+.setting_new {
+    height: 217px;
+}
+.day_of_month a, .day_of_month_s a, .week a {
+  margin-bottom: 37px;
+  width: 100%;
+}
+}
+table.grid, table.grid th, table.grid td { border-collapse: collapse; border: 1px solid #e0e0e0; vertical-align: top; }
+table.grid { margin: 0px 0px !important; }
+table.grid th, table.grid td { width: 13%; }
+table.grid th { background: #ffe4b5; }
+table.grid th.cal_top { background: #0169C4; font-size: 16pt; padding: 9px 0; color: #fff; }
+table.grid td { /*cursor:pointer;*/
+padding: 10px; background: #FFF; }
+BODY { font: 12px Arial, Helvetica, sans-serif; color: #000; margin: 0px; }
+A { color: #369; }
+.top_nav { float: right; }
+.top { /*background-color : #555555;*/
+background: none repeat scroll 0 0 #e5e5e5; color: #eeeeee; padding: 10px; border-bottom: 1px solid #d0d0d0; }
+.nav { background-color : #ffe4b5; color: #000; padding: 0px 10px; border-bottom: 1px solid #000; line-height: 30px; }
+.top A, .nav A, .cal_top A, .bottom A { border: 1px solid #bcbcbc; border-radius: 4px; color: #000; padding: 6px 10px; text-decoration: none; }
+.nav A, .cal_top A { color: #fff; }
+.nav A { padding: 2px; }
+.nav A.selected { background: #ffc; color: #000; }
+.bottom { clear: left; background-color : #B0E0E6; color: #000; padding: 5px 10px; border-top: 1px solid #000; border-bottom: 1px solid #000; }
+.top h1 { margin: 0em; padding: 0em; }
+.content { padding: 10px; background: none repeat scroll 0 0 #fff; }
+.content .item { padding: 2px; }
+h1 { font-size: 18pt; }
+h2 { font-size: 16pt; }
+h3 { font-size: 14pt; }
+h4 { font-size: 12pt; margin: 0em; padding: 0em; }
+input { font-size: 10pt; }
+.element { float: left; margin-right: 20px; margin-bottom: 20px; }
+form { margin: 0em; padding: 0em; }
+.morning { background: #ffc; }
+.noon { background: #fcc; }
+.afternoon { background: #cff; }
+.evening { background: #ccf; }
+.midnight { background: #ccc; }
+div#timelayer { position: absolute; visibility: hidden; }
+form.top_form { margin: 0px; padding: 0px; float: right; }
+.time { font-size: 8pt; }
+.title { font-size: 10pt; font-weight: bold; }
+.venue { font-size: 8pt; }
+.location { font-size: 8pt; }
+.edit { font-size: 8pt; }
+.day ul { margin: 5px; padding: 0px 15px; }
+/*.day:hover{
+	background-color:#FF5003 !important;
+}*/
+.day_of_month { color: #999; float: right; font-size: 14pt; font-weight: bold; text-align: right; width: 100%; }
+.vik_grid { height: 140px; }
+/* Added v0.2.0 */
+.error { background: #fcc; }
+td, th { vertical-align: top; }
+.sidebar { width: 300px; border: 1px solid #000; background: #fff; padding: 5px; float: right; }
+/* Added v0.4.0 */
+
+.day_of_month_s { text-align: right; float: right; color: #999; }
+table.grid th.cal_top_s { background: #B0E0E6; }
+.button { padding: 2px; float: left; }
+.button div { width: 10px; height: 10px; border: 1px solid #000; }
+table.grid td.holder { vertical-align: top; border: 0px solid #fff; padding: 5px; }
+/* Added v0.4.1 */
+.cell { height: 28px; border-bottom: 1px dashed #ccc; color: #999; cursor: pointer; }
+.cell_top { background: none repeat scroll 0 0 #e4e4e4; border-bottom: 1px solid #000; color: #4f4f4f; font-weight: bold; height: 24px; padding-top: 5px; text-align: center; }
+.date { position: absolute; border: 1px solid #000; background-color : #fff; z-index: 1; overflow-y: hidden;    /* changed from auto because I didn't want the scroll bar */ overflow-x: hidden;    /* added to allow IE to size the width of the event properly */ margin: 0px; }
+.wrap { width: 100%; clear: both; }
+#dates { position: absolute; left: 0px; top: 0px; right: 0px; }
+.inner { padding: 0px 2px; font-size: 6pt; }
+.frame { background: #fff; border: 1px solid #000; }
+div.cal_top { background: none repeat scroll 0 0 #555555; border-bottom: 1px solid #000; color: #fff; font-size: 16pt; font-weight: bold; padding: 9px 0; text-align: center; }
+.single_day_frame { position: relative; margin: 0px; padding: 0px; }
+/* Added v1.0.0 */
+.time_frame { position: relative; margin: 0px; padding: 0px; }
+.timex { width: 80px; }
+.day_of_week { height: 1440px; border-left: 1px solid #000; position: absolute; }
+#today { background: #ffc; color:#666666; }
+.day_of_month a, .day_of_month_s a, .week a { color: #999; float: right; text-decoration: none; width: 100%; }
+.grid .disabled_days{ background:grey !important; pointer-events:none !important;}
+.single_day_frame .disabled_days{ background:gray !important; pointer-events:none !important;}
+.disabled_days:before{ content:" ";}
+
+th.cal_top_s a { color: #000; text-decoration: underline; }
+table.day { width: 100%; border-collapse: collapse; border: 0px; padding: 0px; margin: 0px; }
+table.day th { background: #ffe4b5; border-right: 1px solid #000; border-bottom: 1px solid #000; border-left: 1px solid #000; padding: 5px; }
+td.single_day { border-left: 1px solid #000; }
+
+.week { clear: right; text-align: center; float: right; font-size: 8pt; font-weight: bold; color: #999; height: 50px; }
+.cell_top a { color: #000; text-decoration: underline; }
+.inner .time, .inner .venue, .inner .location, .inner .edit { font-size: 6pt; }
+.inner .title { font-size: 8pt; }
+.code { font-family: Courier New; }
+.setting { bottom: 36px; float: left; font-size: 13px; margin-bottom: -46px; margin-left: 4px; margin-top: 80px; }
+
+
+.setting.add { float: left; cursor: pointer; margin-left: 0; text-align: left; width: 41px; }
+.setting.view { float: left; margin-left: 0; text-align: center; cursor: pointer; width: 45px; }
+/*.setting.delete { float: right; cursor: pointer; margin-left: 0; }*/
+.setting.delete { float: left; cursor: pointer; margin-left: 0; text-align: left; width: 41px; }
+.vik.week_delete { float: left; cursor: pointer; margin-left: 0; text-align: left; width: 100%; font-size:15px; color:#808080; }
+/*.vik.week_delete:after{ content:"Delete";}
+*/
+.dis_week_time{ background:white  !important;pointer-events:none !important;}
+.user_booked { background: black !important; pointer-events:none !important;}
+.mybooked{background: green !important; pointer-events:none !important;}
+
+/*#e5e5e5*/
+.booked { background: #0169c4 !important; }
+.booked a { color: #fff !important; float: right; width: 100%; }
+.booked_selected { background: #0169c4 !important; pointer-events: none !important; cursor: none !important; }
+.booked_selected a { color: #FFF !important; pointer-events: none !important; cursor: none !important; }
+
+.partial-booked { background: pink !important; }
+.partial-booked a { color: #fff !important; float: right; width: 100%; }
+.partial-booked_selected { background: pink !important; pointer-events: none !important; cursor: none !important; }
+.partial-booked_selected a { color: #FFF !important; pointer-events: none !important; cursor: none !important; }
+
+
+.setting.delete:after {
+  content: "Delete";
+}
+.setting.add:after {
+  content: "Add";
+}
+.setting.view:after {
+  content: "View";
+}
+/*.jsgrid-load-panel:before {
+  border-bottom-colors: none;
+  border-left-colors: none;
+  border-right-colors: none;
+  border-top-colors: none;
+  animation: 1s linear 0s normal none infinite running indicator;
+  -webkit-animation: 1s linear 0s normal none infinite running indicator;
+  border-color: #009a67 transparent #009a67 #009a67;
+  border-image: none;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  content: " ";
+  height: 2em;
+  left: 50%;
+  margin-left: -1em;
+  position: absolute;
+  top: 1.5em;
+  width: 2em;
+}
+
+@-webkit-keyframes indicator
+{
+    from { -webkit-transform: rotate(0deg); }
+    50%  { -webkit-transform: rotate(180deg); }
+    to   { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes indicator
+{
+    from { transform: rotate(0deg); }
+    50%  { transform: rotate(180deg); }
+    to   { transform: rotate(360deg); }
+}
+*/
+.jsgrid-load-panel {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #e9e9e9;
+  color: #333;
+  font-size: 12px;
+  height: 3em;
+  padding-top: 5em;
+  text-align: center;
+  width: 15em;
+  height:95px;
+}
+.calendar-legend {
+	padding: 20px 0 20px 0px;
+*zoom: 1;
+}
+.calendar-legend:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.calendar-legend .key {
+	float: left;
+	max-width: 200px;
+	margin-right: 20px;
+}
+.calendar-legend .key.key-inaccessible .key-pill {
+	background-image: url(../images/stripes.png);
+	background-size: 16px 16px;
+}
+.calendar-legend .key.key-unavailable .key-pill {
+	background: #0169c4;
+}
+.key-pill.test {
+    background: none repeat scroll 0 0 white !important;
+}
+.key-pill.test1 {
+    background: none repeat scroll 0 0 black !important;
+}
+.key-pill.test2 {
+    background: none repeat scroll 0 0 green !important;
+}
+.key-available .key-pill {
+	background: none repeat scroll 0 0 #f2f2f2;
+}
+.calendar-legend .key.key-rental .key-pill {
+	background: #2fa835;
+}
+.calendar-legend .key.key-request .key-pill {
+	background: #ef9e18;
+}
+.calendar-legend .key-pill {
+	display: block;
+	float: left;
+	height: 22px;
+	width: 35px;
+	border: 1px solid #c3c3c3;
+	margin-top: 1px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: pink;
+}
+.calendar-legend .key-name {
+	color: black;
+    margin-left: 50px;
+    margin-top: 6px;
+}
+.cal_top > a:hover{ color:#fff;}
+/*.cell.disabled_days {
+  background: none repeat scroll 0 0 gray !important;
+  pointer-events: none !important;
+}*/
+.form-group.startacause {
+  background: none repeat scroll 0 0 #e5e5e5;
+  padding: 12px;
+  width: 100%;
+}
+
+.img_span_n{text-align: center;
+position: relative;
+width: 100%;
+float: left;
+top: -41px;}
+
+.load_left{position: relative;top: -43px;left: 00px;}

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.row.custom_row { overflow:hidden;}
+@media all and (max-width: 1024px) and (min-width: 768px) {
+.cause_hding span { width: 300px;}
+}
+.cause_pad{padding:0 30px 0 15px;}
+.story p{font-family: 'MyriadPro-Regular';
+    font-size: 15px; word-break:break-all; float:left;}
+.caus_fst{padding:0 15px 0 0;}	
+/* will be oly in google chrome */
+.email-search{position:relative; margin-left:7px; float:left;}
+.email-search .form-control{ color:#cfcfcf;}
+.lab_search{float:left; padding-top:5px;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .cause_hding{/*background: url("../images/icon-sheet.png") no-repeat scroll 336px -190px rgba(0, 0, 0, 0)!important;*/}
+  .right_text {
+    min-height: 313px;
+}
+}
+
+/* update css 26/june*/
+
+ @media (max-width:1024px) {
+/*.cause_hding span { width: 25%!important; }*/
+.unit { width: 43%!important; }
+.google img{margin-left:24px;}
+.thanks_giving #carousel, .thanks_giving #carousel_a, .thanks_giving #carousel_b, .thanks_giving #carousel_c { width: auto; }
+.thanks_giving #carousel .flex-viewport, .thanks_giving #carousel_a .flex-viewport, .thanks_giving #carousel_b .flex-viewport, .thanks_giving #carousel_c .flex-viewport{width:250px; left:73px;}
+.right_text {min-height: 100%;}
+.check_btn.cart_btn{margin:15px 0 0 0;}
+
+}
+ @media (max-width:768px) {
+/*.cause_hding span { width: 32%!important; }*/
+.unit {width: 84%;}
+.thanks_giving .right_text h4{font-size:17px;}
+.google img{margin-left:0px;}
+.thanks_giving #carousel .flex-viewport, .thanks_giving #carousel_a .flex-viewport, .thanks_giving #carousel_b .flex-viewport, .thanks_giving #carousel_c .flex-viewport{width:auto; left:0px;}
+.thanks_giving .flex-direction-nav .flex-prev{left:0;}
+.cause_hding span{width:300px; margin:15px 0 10px 0; float:right;}
+}
+ @media (max-width:640px) {
+.cause_hding {
+    background: none;}
+/*.cause_hding span{display:none;}*/
+a.tooltip_tick{margin-right:10px; background:url("../images/icon-sheet.png") repeat scroll 449px -221px rgba(0, 0, 0, 0);}
+.cause_hding span {background:none;}
+.organise_check label{width:auto;}
+.lab_input{width:auto;}	
+.google{padding:0;}
+.default-acnt .control-label{padding:0;}
+.name_fed{padding:0;}
+.bank_input{width:100%;}
+.custom_select .col-sm-4 select{margin-bottom:10px;}
+.thanks_giving .pull-right{float:none!important;} 
+.email-search{margin-left:0; float:none;}
+.lab_search{float:none; padding-top:0px;}
+ }
+ @media (max-width:480px) {
+ .cause_hding span{width:250px;}
+ }
